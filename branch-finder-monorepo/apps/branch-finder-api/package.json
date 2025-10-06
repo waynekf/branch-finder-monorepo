@@ -1,0 +1,8 @@
+{
+  "name": "@branch-finder-monorepo/branch-finder-api",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
