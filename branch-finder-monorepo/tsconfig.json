@@ -8,6 +8,9 @@
     },
     {
       "path": "./apps/branch-finder-api"
+    },
+    {
+      "path": "./apps/branch-finder-website"
     }
   ]
 }
