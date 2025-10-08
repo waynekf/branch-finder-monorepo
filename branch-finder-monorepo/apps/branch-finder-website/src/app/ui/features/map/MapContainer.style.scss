@@ -1,0 +1,41 @@
+.map-container {
+  margin: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(182, 183, 182);
+  height: 1250px;
+  width: 100%;
+  background-color: ghostwhite;
+}
+
+.home-marker,
+.branch-marker {
+  background-color: transparent !important;
+  border-color: ghostwhite !important;
+  color: black;
+  border-width: 5px !important;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.home-marker {
+  background-image: url('/img/home.png');
+}
+
+.branch-marker {
+  background-image: url('/img/castle.png');
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  width: 500px;
+  height: 500px;
+}

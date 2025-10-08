@@ -11,6 +11,15 @@
     },
     {
       "path": "./apps/branch-finder-website"
+    },
+    {
+      "path": "./libs/branch-finder-data"
+    },
+    {
+      "path": "./libs/branch-finder-utils"
+    },
+    {
+      "path": "./libs/branch-finder-schemas"
     }
   ]
 }

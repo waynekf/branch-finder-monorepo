@@ -16,6 +16,15 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@branch-finder-monorepo/source"]
-  }
+    "customConditions": ["@branch-finder-monorepo/source"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "branch-finder-data": ["./libs/branch-finder-data/src/index.ts"],
+      "branch-finder-schemas": [
+        "./libs/branch-finder-schemas/src/index.ts"
+      ],
+      "branch-finder-utils": ["./libs/branch-finder-utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules"]
 }
